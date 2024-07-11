@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/edit_name"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:hint="@string/name"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            tools:ignore="DuplicateSpeakableTextCheck" />
+
+        <EditText
+            android:id="@+id/edit_phone"
+            android:layout_width="153dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:hint="@string/phone_number"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:autofillHints=""
+            tools:ignore="TextFields" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:textColor="@color/black"
+        android:backgroundTint="#A2F147"
+        android:text="@string/save" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+        <EditText
+            android:id="@+id/edit_name2"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/name1"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:autofillHints="" />
+
+
+
+    </LinearLayout>
+
+
+        <Button
+            android:id="@+id/button_Delete1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#A2F147"
+            android:text="@string/delete" />
+
+        <ListView
+        android:id="@+id/list_contacts"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@null"
+        android:dividerHeight="0dp" />
+
+</LinearLayout>

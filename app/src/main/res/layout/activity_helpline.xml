@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1F1F3"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
+
+
+    <Button
+        android:id="@+id/btn_call"
+        android:layout_width="155dp"
+        android:layout_height="216dp"
+        android:backgroundTint="@color/teal_200"
+        android:contentDescription="@string/police"
+        android:text="@string/police"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:cornerRadius="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.098"
+        tools:ignore="TextContrastCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/women_distress"
+        android:layout_width="155dp"
+        android:layout_height="221dp"
+        android:backgroundTint="#72C8EF"
+        android:contentDescription="@string/women_abuse"
+        android:text="@string/women_abuse"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:cornerRadius="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.664"
+        tools:ignore="TextContrastCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/hosp"
+        android:layout_width="155dp"
+        android:layout_height="221dp"
+        android:backgroundTint="#72C8EF"
+        android:contentDescription="@string/hospital"
+        android:text="@string/hospital"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:cornerRadius="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.932"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.098"
+        tools:ignore="TextContrastCheck,SpeakableTextPresentCheck,TextSizeCheck" />
+
+    <Button
+        android:id="@+id/stud_abuse"
+        android:layout_width="155dp"
+        android:layout_height="221dp"
+        android:backgroundTint="@color/teal_200"
+        android:contentDescription="@string/student_abuse"
+        android:text="@string/student_abuse"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:cornerRadius="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.933"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.664"
+        tools:ignore="TextContrastCheck,SpeakableTextPresentCheck,TextSizeCheck" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

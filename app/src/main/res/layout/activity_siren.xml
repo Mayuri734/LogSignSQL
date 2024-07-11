@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1F1F3"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".siren_activity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="250dp"
+        android:contentDescription="@string/siren"
+        android:src="@drawable/siren"
+        tools:ignore="ImageContrastCheck" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="411dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:visibility="visible"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp"
+        app:cardUseCompatPadding="true"
+        tools:visibility="visible">
+
+
+        <Button
+            android:id="@+id/btnPlayP"
+            android:layout_width="195dp"
+            android:layout_height="192dp"
+            android:layout_centerHorizontal="false"
+            android:layout_centerVertical="false"
+            android:layout_gravity="center"
+            android:backgroundTint="#121112"
+            android:elevation="60dp"
+            android:text="@string/play"
+            android:textColor="#FDFCFD"
+            android:textSize="40sp"
+            android:textStyle="italic"
+            app:cornerRadius="90dp" />
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">𝒯𝒽𝒾𝓇𝒹𝐸𝓎𝑒</string>
+    <string name="login_image">login_image</string>
+    <string name="signlogin_image">login_image</string>
+    <string name="already_an_user_login">Already an user? Login</string>
+    <string name="not_yet_registered_signup">Not yet registered? Signup</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="signemail">Email</string>
+    <string name="signpassword">Password</string>
+    <string name="signconfirm_password">Confirm Password</string>
+
+    <string name="defence">DEFENCE</string>
+    <string name="con">CONTACTS</string>
+
+    <string name="helpline">HELPLINE</string>
+
+    <string name="nearby_location">NEARBY LOCATION</string>
+    <string name="police_station_and_hospital">Police station and Hospital</string>
+    <string name="siren">PANIC SIREN</string>
+    <string name="defence_techniques">DEFENCE\nTECHNIQUES</string>
+
+    <string name="hospital">Hospital</string>
+    <string name="police">Police</string>
+    <string name="student_abuse">Student Abuse</string>
+    <string name="women_abuse">Women Abuse</string>
+    <string name="play">PLAY</string>
+    <string name="login">LOGIN</string>
+    <string name="title_activity_maps">MapsActivity</string>
+
+
+    <string name="sign_up">SIGN UP</string>
+
+    <string name="quote">𝐅𝐞𝐚𝐫 𝐢𝐬 𝐫𝐞𝐚𝐜𝐭𝐢𝐨𝐧,</string>
+    <string name="quote1">𝐜𝐨𝐮𝐫𝐚𝐠𝐞 𝐢𝐬 𝐚 𝐝𝐞𝐜𝐢𝐬𝐢𝐨𝐧</string>
+    <string name="trace_me">TRACE ME</string>
+    <string name="track_me">Track Me</string>
+    <string name="name">Name</string>
+    <string name="save">Save</string>
+    <string name="name1">Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="delete">Delete</string>
+</resources>
